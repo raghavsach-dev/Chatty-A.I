@@ -68,7 +68,7 @@ const Main = () => {
         <div className="main">
             <div className="nav">
                 <p>Chatty A.I</p>
-                <img src="/src/assets/logo.jpeg" alt="Logo" />
+                <img src="https://i.ibb.co/4W6Qyvf/logo.jpg" alt="Logo" />
             </div>
             <div className="main-container">
                 {!showResult ? (
@@ -80,31 +80,31 @@ const Main = () => {
                         <div className="cards">
                             <div className="card">
                                 <p>Suggest Beautiful Places To See On An Upcoming Road Trip</p>
-                                <img src="/src/assets/compass.png" alt="Compass" />
+                                <img src="https://i.ibb.co/CVctHqx/compass.png" alt="Compass" />
                             </div>
                             <div className="card">
                                 <p>Briefly Summarize The Concept of Budget</p>
-                                <img src="/src/assets/money.png" alt="Money" />
+                                <img src="https://i.ibb.co/WcpyFZ5/money.png" alt="Money" />
                             </div>
                             <div className="card">
                                 <p>Brainstorm Team Bonding Activities For Our Work Retreat</p>
-                                <img src="/src/assets/message.png" alt="Message" />
+                                <img src="https://i.ibb.co/56HHV81/message.png" alt="Message" />
                             </div>
                             <div className="card">
                                 <p>Improve The Readability of the Following Code</p>
-                                <img src="/src/assets/code.png" alt="Code" />
+                                <img src="https://i.ibb.co/hHRF42w/code.png" alt="Code" />
                             </div>
                         </div>
                     </>
                 ) : (
                     <div className="result">
                         <div className="result-title">
-                            <img src="/src/assets/user.png" alt="User" />
+                            <img src="https://i.postimg.cc/0QbmR2DK/user.png" alt="User" />
                             <p>{recentPrompt}</p>
                         </div>
                         <hr />
                         <div className="result-data">
-                            <img src="/src/assets/logo.jpeg" alt="Logo" />
+                            <img src="https://i.ibb.co/4W6Qyvf/logo.jpg" alt="Logo" />
                             {loading ? (
                                 <div className="loader">
                                     <hr />
@@ -128,11 +128,11 @@ const Main = () => {
                         />
                         <div>
                             {isListening ? (
-                                <img src="/src/assets/microphone.png" alt="Microphone" />
+                                <img src="https://i.ibb.co/mDbCKqQ/microphone.png" alt="Microphone" />
                             ) : (
                                 <>
-                                    <img src="/src/assets/microphone.png" alt="Microphone" onClick={handleMicClick} />
-                                    <img src="/src/assets/send.png" alt="Send Button" onClick={sendPrompt} />
+                                    <img src="https://i.ibb.co/mDbCKqQ/microphone.png" alt="Microphone" onClick={handleMicClick} />
+                                    <img src="https://i.ibb.co/X51xKw9/send.png" alt="Send Button" onClick={sendPrompt} />
                                 </>
                             )}
                         </div>
